@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 120px;
+    height: 25px;
+}
+
+button {
+    margin-right: 5px;
+}

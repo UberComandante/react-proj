@@ -1,0 +1,8 @@
+.myBtn {
+    background-color: greenyellow;
+    border-radius: 6px;
+    border: purple solid;
+    font-size: 14px;
+    height: 30px;
+    width: 100px;
+}
