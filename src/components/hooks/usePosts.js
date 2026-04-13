@@ -4,6 +4,7 @@ const useSortedPosts = (posts, algo) => {
 
     const sortedPosts = useMemo(() => {
         console.log("Sort mem")
+        
         if (algo === 'title') {
             return [...posts].sort((a, b) => a[algo].localeCompare(b[algo]))
         } else if (algo === 'id') {

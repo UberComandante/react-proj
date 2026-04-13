@@ -10,9 +10,9 @@ const Post = ({remove, number, post}) => {
         <div className='post-cont'>
           <div>
             <strong>{post.id} {post.title}</strong>
-            <div>
+            <p>
               {post.body}
-            </div>
+            </p>
           </div>
           
                     

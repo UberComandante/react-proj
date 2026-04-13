@@ -25,17 +25,13 @@ function Posts() {
   const [filter, setFilter] = useState({algo: "", stro: ""})
   const [modal, setModal] = useState(false)
   // const [waiting, setWaiting] = useState(true)
-  const [allPosts, setAllPosts] = useState(0)
+  
   const [totalPages, setTotalPages] = useState(0)
   const [limitPosts, setLimitPosts] = useState(5)
   const [nowPage, setNowPage] = useState(1)
   
   
-  const [posts, setPosts] = useState([
-    // {id: 1, title: 'Topic', body: 'Hello!'},
-    // {id: 2, title: 'Topic 2', body: 'Hello! 2'},
-    // {id: 3, title: 'Topic 3', body: 'Hello! 3'}
-  ])
+  const [posts, setPosts] = useState([])
   
 
   // #2-2
