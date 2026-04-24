@@ -31,7 +31,10 @@ function Posts() {
   const [nowPage, setNowPage] = useState(1)
   
   
-  const [posts, setPosts] = useState([])
+  const [posts, setPosts] = useState([
+    // {title: '', body: ''},
+    // {title: '', body: ''}
+  ])
   
 
   // #2-2
