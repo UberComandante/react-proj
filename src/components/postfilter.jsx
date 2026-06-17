@@ -7,8 +7,10 @@ const PostFilter = ({filter, setFilter}) => {
 
     return (
         <div className='posts'>
+            
             <MyInput value={filter.stro} onChange={e => setFilter({...filter, stro: e.target.value})} placeholder={"Search line"} style={{ background: 'turquoise'}}/>
             {filter.algo}
+
             <Selector 
                 value={filter.algo}
                 onChange={choose => setFilter({...filter, algo: choose})}

@@ -85,11 +85,17 @@ form {
 
 .navbar a:hover {
   color: orange; /* цвет при наведении */
-  background-color: #1100ff; /* нежный фон при наведении */
+  background-color: #1100ff;
   border-radius: 4px; 
 }
 
 .error {
     display: flex;
     justify-content: center;
+}
+
+.about-text {
+    display: flex;
+    justify-content: center;
+    color: peru
 }

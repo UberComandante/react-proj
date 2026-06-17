@@ -6,7 +6,7 @@ import { authContext } from '../../context/context'
 
 const AppRouter = () => {
  
-   const {isAuth, setIsAuth} = useContext(authContext)
+   const [isAuth, setIsAuth] = useContext(authContext)
    const array = isAuth ? routesArr : pubRoutes
    
     return ( 
