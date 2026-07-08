@@ -92,10 +92,39 @@ form {
 .error {
     display: flex;
     justify-content: center;
+    color: red;
 }
 
 .about-text {
     display: flex;
     justify-content: center;
     color: peru
+}
+
+
+
+
+
+.counter {
+    background-color: rgb(0, 126, 126);
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    padding-left: 20px;
+    position: absolute;
+    left: 10px;
+    border-radius: 8px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.container button {
+    margin-right: 5px;
 }

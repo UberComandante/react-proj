@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import '/Programs/IT Programs/XAMPP/htdocs/react-big-proj/react-tests/src/styles/counter.css'
 
 export const Counter = () => {
     const [count, setCount] = useState(0);
@@ -11,13 +10,12 @@ export const Counter = () => {
         setCount((count) => count - 1)
     }
 
-
     return (
         <div className="container">
-            <span>
+            <p>
                 <button onClick={more}>More</button>
                 <button onClick={less}>Less</button>
-            </span>
+            </p>
             <p>{count}</p>
         </div>
     )

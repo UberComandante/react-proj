@@ -1,5 +1,5 @@
 import React, {useEffect, useState, useMemo} from 'react'
-import {Counter} from '../components/counter.jsx'
+import {Counter} from '../components/UI/counter/counter.jsx'
 // import ClassCounter from './components/classcomp';
 import '../styles/App.css'
 import Postlist from '../components/postslist.jsx'
@@ -81,8 +81,11 @@ function Posts() {
     <div className="App">
 
       {/* #1 */}
-      <InpSim />
-      <Counter />
+      <div className='counter'>
+        <InpSim />
+        <Counter />
+      </div>
+
 
 
 

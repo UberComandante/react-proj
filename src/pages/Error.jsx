@@ -4,7 +4,7 @@ import React from "react";
 const Error = () => {
 
   return (
-    <h2 style={{color: "red"}} className="error">
+    <h2 className="error">
         Wrong Path!
     </h2>
   )
